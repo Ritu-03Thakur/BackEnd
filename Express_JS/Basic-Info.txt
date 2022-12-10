@@ -1,0 +1,16 @@
+**   Express JS is a Web framework for Node JS 
+
+
+**  Set Up 
+ 1. Intially Install express JS 
+   ->    In Terminal -:  npm install express --save
+ 2. Require express and store in a variable to use express JS Properties and Method 
+    ->  let express = require('express'); 
+    ->  let app = express(); 
+  
+  ** Host --> Name of the Domain
+  ** Port --> A Number on which the server accept incoming requests.
+
+  ** Request And Response in Callback Function 
+  Request (req) -> HTTP request and has Properties
+  Response(res) -> HTTP response that the Express app sends when it receives an HTTP request.
